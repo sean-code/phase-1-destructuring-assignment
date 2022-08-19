@@ -66,6 +66,6 @@ const [, , , , , indg] = colors;
 //destructuring key for muppet
 const {muppetName, color, job, partner, song} = muppet;
 
-// Album bit
+// Album bit --botyh song 4 and song 2
 const {nestedJob, nestedPartner} =  nestedMuppet;
 const {song2, song4} =  nestedMuppet.album.theMuppetMovie;
