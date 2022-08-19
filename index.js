@@ -55,7 +55,7 @@ const nestedMuppet = {
 const [moo, neigh, baa, oink, cluck] = farmAnimals.split(' ');
 console.log(moo, neigh, baa, oink, cluck);
 
-const [bessie, , Dolly, Babe, Little] = 'cow horse sheep pig chicken'.split(" ")
+const [bessie, , dolly, babe, little] = 'cow horse sheep pig chicken'.split(" ")
 
 
 const [blackAndWhite, , black, pink] = 'cow horse sheep pig chicken'.split(" ")
