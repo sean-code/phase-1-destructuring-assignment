@@ -54,9 +54,8 @@ const nestedMuppet = {
 //1. Sounds
 const [moo, neigh, baa, oink, cluck] = farmAnimals.split(' ');
 console.log(moo, neigh, baa, oink, cluck);
-
+//traditional names
 const [bessie, , dolly, babe, little] = 'cow horse sheep pig chicken'.split(" ")
-
 
 const [blackAndWhite, , black, pink] = 'cow horse sheep pig chicken'.split(" ")
 
@@ -64,6 +63,8 @@ const [blackAndWhite, , black, pink] = 'cow horse sheep pig chicken'.split(" ")
 const [red, orange, yellow, green, blue, indigo, violet] = colors;
 const [r, o, y, g, b, i, v] = colors;
 const [, , , , , indg] = colors;
+//destructuring key for muppet
+const {muppetName, color, job, partner, song} = muppet;
 
 // Album bit
 const {nestedJob, nestedPartner} =  nestedMuppet;
